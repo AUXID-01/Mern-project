@@ -1,0 +1,56 @@
+# ----------------------------
+# Node.js dependencies
+# ----------------------------
+portfolio-builder/**/node_modules/
+portfolio-builder/**/package-lock.json
+
+# ----------------------------
+# Environment files
+# ----------------------------
+portfolio-builder/**/.env
+portfolio-builder/**/.env.local
+portfolio-builder/**/.env.development.local
+portfolio-builder/**/.env.test.local
+portfolio-builder/**/.env.production.local
+
+# ----------------------------
+# Build and cache outputs
+# ----------------------------
+portfolio-builder/**/dist/
+portfolio-builder/**/build/
+portfolio-builder/**/.cache/
+portfolio-builder/**/.tmp/
+portfolio-builder/**/out/
+portfolio-builder/**/coverage/
+portfolio-builder/**/logs/
+portfolio-builder/**/temp/
+portfolio-builder/**/uploads/
+
+# ----------------------------
+# Frontend (Vite/React)
+# ----------------------------
+portfolio-builder/frontend/.vite/
+portfolio-builder/frontend/.DS_Store
+
+# ----------------------------
+# Backend (Express/Node)
+# ----------------------------
+portfolio-builder/backend/.DS_Store
+
+# ----------------------------
+# OS / Editor files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bak
